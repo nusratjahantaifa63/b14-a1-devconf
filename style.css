@@ -394,3 +394,38 @@ width: 100%;
    padding: 5px;
    border-radius: 5px;
 }
+
+.footer{
+   background-color: #2d3748;
+   color: #a0aec0;
+   padding: 20px 40px;
+   font-size: 14px;
+}
+.footer-container{
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+
+}
+.footer-left{
+   margin: 0;
+}
+.footer-right{
+   display: flex;
+
+}
+.footer-right p{
+   color: #a0aec0;
+   text-decoration: none;
+   margin-left: 20px;
+   transition: color 0.3 ease;
+   justify-content: space-between;
+}
+
+
+.footer-right p:hover{
+   color: #959595;
+}
